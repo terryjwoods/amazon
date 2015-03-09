@@ -1,0 +1,113 @@
+body {
+background-color: gold;
+}
+
+#container {
+width: 800px;
+margin: 0px auto; /* centers website in browser */
+background-color: white;
+}
+
+header {
+width: 800px;
+height: 150px;
+background-color: white;
+}
+
+nav {
+width: 800px;
+height: 50px;
+line-height: 50px; /* vertically centers text */
+background-color: black;
+}
+
+nav a {
+font-family: Arial;
+font-size: 18px;
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+
+section {
+width: 420px;
+/*height: 400px;*/
+background-color: white;
+float: left;
+}
+
+.padding {
+padding: 10px;
+}
+
+section h1 {
+font-family: Georgia;
+font-size: 30px;
+color: black;
+padding-bottom: 10px;
+}
+
+section h2 {
+font-family: Arial;
+font-size: 18px;
+text-transform: uppercase;
+color: gray;
+padding-bottom: 10px;
+}
+
+section p {
+font-family: Arial;
+font-size: 12px;
+color: black;
+line-height: 20px;
+padding-bottom: 10px;
+}
+
+
+
+#left {
+width: 200px;
+/*height: 400px;*/
+background-color: #eee;
+float: left;
+}
+
+#left h2 {
+font-family: Arial;
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+#left h3 {
+font-family: Arial;
+font-size: 12px;
+margin-bottom: 15px;
+}
+
+#right {
+width: 180px;
+/*height: 400px;*/
+background-color: #eee;
+float: right;
+}
+
+.fix {
+clear: both;
+/*height: 10px;
+background-color: red;*/
+}
+
+footer {
+width: 800px;
+height: 50px;
+line-height: 50px;
+background-color: gold;
+text-align: center;
+font-family: Arial;
+font-size: 12px;
+color: #333;
+}
+
+
